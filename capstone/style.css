@@ -1,0 +1,206 @@
+body {
+  font-family: helvetica;
+  font-size: 14px;
+  margin: 0;
+  color: #444;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.logo {
+  height: 45px;
+}
+
+.navigation h1 {
+  height: 32px;
+  font-size: 24px;
+  margin: 0;
+  text-align: left;
+}
+
+.text-normal {
+  font-weight: 100;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.navigation {
+  align-items: center;
+  height: 64px;
+}
+
+.navigation {
+  margin: 0 24px;
+}
+
+.navigation a {
+  color: grey;
+  margin: 0 8px;
+}
+
+.navigation a:hover {
+  color: skyblue;
+}
+
+.navigation a:last-child {
+  margin-right: 0;
+}
+
+.bg-grey {
+  background-color: lightgrey;
+}
+
+.title {
+  font-weight: 900;
+  line-height: 1.2;
+  color: #444;
+}
+
+.subtitle {
+  font-weight: bold;
+  color: #444;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  background-color: grey;
+  padding: 8px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-block {
+  display: block;
+}
+
+.padding-sm {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.no-margin-left {
+  margin-left: 0 !important;
+}
+
+.no-margin-right {
+  margin-right: 0 !important;
+}
+
+.border {
+  border: 1px solid #eee;
+}
+
+.box {
+  padding: 16px;
+}
+
+.box .col-left-sm {
+  padding-right: 16px;
+}
+
+.box:hover {
+  background: lightgrey;
+}
+
+.right-boxes h3 {
+  margin: 0 0 8px 0;
+}
+
+.right-boxes p {
+  margin-bottom: 8px;
+}
+
+blockquote {
+  font-size: 12px;
+  margin: 0;
+}
+
+blockquote cite {
+  margin-top: 32px;
+  display: block;
+  font-style: normal;
+}
+
+h2.title {
+  margin: 32px 0;
+  font-size: 24px;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.practice h2.title {
+  margin-bottom: 24px;
+}
+
+
+.button {
+  color: white;
+}
+
+.panel {
+  background-color: white;
+  width: 31%;
+  margin: 16px 10px 0 10px;
+}
+
+.panel-body {
+  padding: 16px;
+}
+
+.panel-body h4, .panel-body p {
+  margin: 0 0 8px 0;
+}
+
+.panel h4 {
+  font-size: 16px;
+}
+
+video {
+  width: 100%;
+}
+
+.footer {
+  padding: 16px 24px;
+  border-top: 1px solid #eee;
+}
+
+.footerlinks {
+  float: right;
+}
+
+.flex .spacer{
+  flex-grow: 1
+}

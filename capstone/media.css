@@ -1,0 +1,96 @@
+
+/* Mobile only styles */
+@media only screen and (max-width: 767px){
+  .navigation.flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hidden-sm{
+    display: none;
+  }
+  .navigation a{
+    font-size: 0;
+  }
+  .learn {
+    padding:0;
+  }
+  .col-right{
+    padding: 32px 16px;
+  }
+  h1.title{
+    margin:0 0 32px 0;
+  }
+
+  .practice,
+  .practice .col-right{
+    padding:0;
+  }
+
+  .practice .col-right-sm{
+    padding: 20px 16px 0 16px;
+  }
+
+  .practice .border{
+    border: none;
+  }
+  .box .col-left-sm{
+    padding-right: 0;
+  }
+  .box:hover{
+    background: #fff;
+  }
+
+  .learning.bg-grey{
+    background: #fff;
+  }
+  .learning .panel{
+    background: lightgrey;
+    width: initial;
+    margin: 0 12px 8px 12px;
+  }
+  .learning .panel-body{
+    padding: 24px 16px;
+  }
+  .learning .panel h4{
+    margin: 0;
+  }
+  .thesis{
+    margin-bottom: 24px;
+  }
+  .footer{
+    border: none;
+  }
+
+}
+
+/* Desktop only styles */
+@media only screen and (min-width: 768px) {
+  .flex {
+    display: flex;
+  }
+  .col-left {
+    width: 60%;
+    padding: 0 24px;
+  }
+  .col-right {
+    width: 40%;
+    padding: 0;
+  }
+
+  .col-left-sm {
+    width: 35%;
+  }
+
+  .col-right-sm {
+    width: 65%;
+  }
+  .navigation a img{
+    display: none;
+  }
+  .padding-right-md {
+    padding-right: 80px;
+  }
+  .container {
+    padding: 0 72px;
+  }
+}
